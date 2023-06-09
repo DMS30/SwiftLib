@@ -11,6 +11,7 @@
 		A4D2288F2A334B3100A8A707 /* SwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D228842A334B3100A8A707 /* SwiftLib.framework */; };
 		A4D228942A334B3100A8A707 /* SwiftLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D228932A334B3100A8A707 /* SwiftLibTests.swift */; };
 		A4D228952A334B3100A8A707 /* SwiftLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D228872A334B3100A8A707 /* SwiftLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D8C2082A3355E50032BD78 /* SwiftLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8C2072A3355E50032BD78 /* SwiftLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		A4D228882A334B3100A8A707 /* SwiftLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftLib.docc; sourceTree = "<group>"; };
 		A4D2288E2A334B3100A8A707 /* SwiftLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D228932A334B3100A8A707 /* SwiftLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLibTests.swift; sourceTree = "<group>"; };
+		A4D8C2072A3355E50032BD78 /* SwiftLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				A4D228872A334B3100A8A707 /* SwiftLib.h */,
 				A4D228882A334B3100A8A707 /* SwiftLib.docc */,
+				A4D8C2072A3355E50032BD78 /* SwiftLib.swift */,
 			);
 			path = SwiftLib;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4D228892A334B3100A8A707 /* SwiftLib.docc in Sources */,
+				A4D8C2082A3355E50032BD78 /* SwiftLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 		A4D2289C2A334B3100A8A707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 889334H788;
@@ -425,6 +430,7 @@
 		A4D2289D2A334B3100A8A707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 889334H788;
