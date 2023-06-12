@@ -16,7 +16,7 @@ class String
     def yellow;         "\e[33m#{self}\e[0m" end
 end
 
-project_files = Dir[ __dir__ + "/../../*.xcodeproj" ]
+project_files = Dir[ __dir__ + "/../../../*.xcodeproj" ]
 
 if project_files.length > 0
     project_path = project_files[0]
